@@ -1,6 +1,26 @@
 {
+  "name": "generate-me-a-better-team",
+  "version": "1.0.0",
+  "description": "* WHEN I am prompted for my team members and their information\r     * THEN an HTML file is generated that displays a nicely formatted team roster based on user input\r * WHEN I click on an email address in the HTML\r     * THEN my default email program opens and populates the TO field of the email with the address\r * WHEN I click on the GitHub username\r     * THEN that GitHub profile opens in a new tab\r * WHEN I start the application\r     * THEN I am prompted to enter the team manager’s name, employee ID, email address, and office number\r * WHEN I enter the team manager’s name, employee ID, email address, and office number\r     * THEN I am presented with a menu with the option to add an engineer or an intern or to finish building my team\r * WHEN I select the engineer option\r     * THEN I am prompted to enter the engineer’s name, ID, email, and GitHub username, and I am taken back to the menu\r * WHEN I select the intern option\r     * THEN I am prompted to enter the intern’s name, ID, email, and school, and I am taken back to the menu\r * WHEN I decide to finish building my team\r     * THEN I exit the application, and the HTML is generated",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Synui/generate-me-a-better-team.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Synui/generate-me-a-better-team/issues"
+  },
+  "homepage": "https://github.com/Synui/generate-me-a-better-team#readme",
   "dependencies": {
     "inquirer": "^8.2.0",
-    "jest": "^27.4.6"
+    "jest": "^27.4.7"
   }
 }
